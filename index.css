@@ -1,0 +1,29 @@
+header {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 26px -5px rgba(0, 0, 0, 0.90);
+    background-color: blueviolet;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.list-nav {
+    list-style: none;
+    display: flex;
+    padding: 10 px;
+}
+
+.list-nav li {
+    padding: 10px;
+}
+
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
