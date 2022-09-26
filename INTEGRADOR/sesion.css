@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family:system-ui;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color:whitesmoke;   
+}
+
+.img-logo {
+    width: 60px;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inico-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size:large;
+    height: 40px;
+    width: 100px;    
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(0deg, rgb(255, 255, 255, 0.10) 0%,  rgb(16, 156, 235) 70%); 
+}
+
+.inico-nav:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.514) 0%,  rgb(16, 156, 235) 70%); 
+    color: black;
+}
+
+.boton-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    background-color:  black;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: gainsboro;    
+}
+
+.registro {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.img-registro{
+    margin: 0px 50px 0px 300px;
+}
+
+.container-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    padding: 15px 0 28px;
+    width: 396px;
+
+}
+
+.correo {
+    padding: 14px 16px;
+    width: 330px;
+    font-size: 17px;
+    border-radius: 17px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid #dddfe2;
+}
+
+.correo:hover{
+    border-color:  rgb(16, 156, 235);
+    transform: scale(1.05);
+    transition: 0.20s;
+}
+
+.contraseña{
+    padding: 14px 16px;
+    width: 330px;
+    font-size: 17px;
+    border-radius: 17px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid #dddfe2;
+}
+
+.contraseña:hover{
+    border-color:  rgb(16, 156, 235);
+    transform: scale(1.05);
+    transition: 0.20s;
+}
+
+.registrarte{
+    padding: 14px 16px;
+    width: 330px;
+    font-size: 17px;
+    border-radius: 17px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid #dddfe2;
+}
+
+.registrarte:hover{
+    background-color: rgb(16, 156, 235);
+    color: black;
+    transform: scale(1.05);
+    transition: 0.20s;
+}
+
+.bienvenida{
+    margin: 0;
+}
+
+.a-registro{
+    text-decoration: none;
+    font-size: 17px;
+    color:#1877f2;;
+}
+
+.a-registro:hover {
+    text-decoration: underline;
+
+
+}
+
+
+
+
